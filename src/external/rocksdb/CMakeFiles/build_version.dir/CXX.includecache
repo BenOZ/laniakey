@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../external/rocksdb/util/build_version.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/build_version.cc
+build_version.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/build_version.h
+

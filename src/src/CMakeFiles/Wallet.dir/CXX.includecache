@@ -1,0 +1,1694 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BlockchainExplorerData.h
+array
+-
+string
+-
+vector
+-
+CryptoTypes.h
+../include/CryptoTypes.h
+CryptoNote.h
+../include/CryptoNote.h
+boost/variant.hpp
+-
+
+../include/CryptoNote.h
+vector
+-
+boost/variant.hpp
+-
+CryptoTypes.h
+../include/CryptoTypes.h
+
+../include/CryptoTypes.h
+cstdint
+-
+
+../include/INode.h
+cstdint
+-
+functional
+-
+system_error
+-
+vector
+-
+crypto/crypto.h
+../include/crypto/crypto.h
+CryptoNoteCore/CryptoNoteBasic.h
+../include/CryptoNoteCore/CryptoNoteBasic.h
+CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+../include/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+Rpc/CoreRpcServerCommandsDefinitions.h
+../include/Rpc/CoreRpcServerCommandsDefinitions.h
+BlockchainExplorerData.h
+../include/BlockchainExplorerData.h
+ITransaction.h
+../include/ITransaction.h
+
+../include/IObservable.h
+
+../include/IStreamSerializable.h
+sstream
+-
+
+../include/ITransaction.h
+array
+-
+cstdint
+-
+string
+-
+vector
+-
+CryptoNote.h
+../include/CryptoNote.h
+
+../include/ITransfersContainer.h
+cstdint
+-
+limits
+-
+vector
+-
+crypto/hash.h
+../include/crypto/hash.h
+ITransaction.h
+../include/ITransaction.h
+IObservable.h
+../include/IObservable.h
+IStreamSerializable.h
+../include/IStreamSerializable.h
+
+../include/ITransfersSynchronizer.h
+cstdint
+-
+system_error
+-
+ITransaction.h
+../include/ITransaction.h
+ITransfersContainer.h
+../include/ITransfersContainer.h
+IStreamSerializable.h
+../include/IStreamSerializable.h
+
+../include/IWallet.h
+limits
+-
+string
+-
+vector
+-
+CryptoNote.h
+../include/CryptoNote.h
+
+../include/IWalletLegacy.h
+istream
+-
+limits
+-
+ostream
+-
+string
+-
+system_error
+-
+CryptoNote.h
+../include/CryptoNote.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/IFusionManager.h
+cstdint
+-
+utility
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/LegacyKeysImporter.cpp
+LegacyKeysImporter.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/LegacyKeysImporter.h
+vector
+-
+system_error
+-
+Common/StringTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/StringTools.h
+CryptoNoteCore/Currency.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/Currency.h
+CryptoNoteCore/Account.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/Account.h
+CryptoNoteCore/CryptoNoteTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/CryptoNoteTools.h
+Serialization/SerializationTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Serialization/SerializationTools.h
+WalletLegacy/WalletLegacySerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletLegacy/WalletLegacySerializer.h
+WalletLegacy/WalletUserTransactionsCache.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletLegacy/WalletUserTransactionsCache.h
+Wallet/WalletUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Wallet/WalletUtils.h
+Wallet/WalletErrors.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Wallet/WalletErrors.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/LegacyKeysImporter.h
+string
+-
+ostream
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletAsyncContextCounter.cpp
+WalletAsyncContextCounter.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletAsyncContextCounter.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletAsyncContextCounter.h
+condition_variable
+-
+mutex
+-
+stdint.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletErrors.cpp
+WalletErrors.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletErrors.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletErrors.h
+string
+-
+system_error
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletGreen.cpp
+WalletGreen.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletGreen.h
+algorithm
+-
+ctime
+-
+cassert
+-
+fstream
+-
+numeric
+-
+random
+-
+set
+-
+tuple
+-
+utility
+-
+System/EventLock.h
+-
+System/RemoteContext.h
+-
+ITransaction.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/ITransaction.h
+Common/ScopeExit.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/ScopeExit.h
+Common/ShuffleGenerator.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/ShuffleGenerator.h
+Common/StdInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/StdInputStream.h
+Common/StdOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/StdOutputStream.h
+Common/StreamTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/StreamTools.h
+Common/StringOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/StringOutputStream.h
+Common/StringTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/StringTools.h
+CryptoNoteCore/Account.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/Account.h
+CryptoNoteCore/Currency.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/Currency.h
+CryptoNoteCore/CryptoNoteBasicImpl.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/CryptoNoteBasicImpl.h
+CryptoNoteCore/CryptoNoteFormatUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/CryptoNoteFormatUtils.h
+CryptoNoteCore/CryptoNoteSerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/CryptoNoteSerialization.h
+CryptoNoteCore/CryptoNoteTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/CryptoNoteTools.h
+CryptoNoteCore/TransactionApi.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/TransactionApi.h
+crypto/crypto.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/crypto/crypto.h
+Transfers/TransfersContainer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Transfers/TransfersContainer.h
+WalletSerializationV1.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletSerializationV1.h
+WalletSerializationV2.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletSerializationV2.h
+WalletErrors.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletErrors.h
+WalletUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletUtils.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletGreen.h
+IWallet.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/IWallet.h
+queue
+-
+unordered_map
+-
+IFusionManager.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/IFusionManager.h
+WalletIndices.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletIndices.h
+Logging/LoggerRef.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Logging/LoggerRef.h
+System/Dispatcher.h
+-
+System/Event.h
+-
+Transfers/TransfersSynchronizer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Transfers/TransfersSynchronizer.h
+Transfers/BlockchainSynchronizer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Transfers/BlockchainSynchronizer.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletIndices.h
+map
+-
+unordered_map
+-
+ITransfersContainer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/ITransfersContainer.h
+IWallet.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/IWallet.h
+boost/multi_index_container.hpp
+-
+boost/multi_index/ordered_index.hpp
+-
+boost/multi_index/random_access_index.hpp
+-
+boost/multi_index/hashed_index.hpp
+-
+boost/multi_index/composite_key.hpp
+-
+boost/multi_index/member.hpp
+-
+Common/FileMappedVector.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/FileMappedVector.h
+crypto/chacha8.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/crypto/chacha8.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletRpcServer.cpp
+WalletRpcServer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletRpcServer.h
+fstream
+-
+Common/CommandLine.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/CommandLine.h
+Common/StringTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/StringTools.h
+CryptoNoteCore/CryptoNoteFormatUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/CryptoNoteFormatUtils.h
+CryptoNoteCore/Account.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/Account.h
+crypto/hash.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/crypto/hash.h
+WalletLegacy/WalletHelper.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletLegacy/WalletHelper.h
+Rpc/JsonRpc.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Rpc/JsonRpc.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletRpcServer.h
+future
+-
+boost/program_options/options_description.hpp
+-
+boost/program_options/variables_map.hpp
+-
+WalletRpcServerCommandsDefinitions.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletRpcServerCommandsDefinitions.h
+WalletLegacy/WalletLegacy.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletLegacy/WalletLegacy.h
+Common/CommandLine.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/CommandLine.h
+Rpc/HttpServer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Rpc/HttpServer.h
+Logging/LoggerRef.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletRpcServerCommandsDefinitions.h
+CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+CryptoNoteCore/CryptoNoteBasic.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/CryptoNoteBasic.h
+crypto/hash.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/crypto/hash.h
+Rpc/CoreRpcServerCommandsDefinitions.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Rpc/CoreRpcServerCommandsDefinitions.h
+WalletRpcServerErrorCodes.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletRpcServerErrorCodes.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletRpcServerErrorCodes.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletSerializationV1.cpp
+WalletSerializationV1.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletSerializationV1.h
+Common/MemoryInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/MemoryInputStream.h
+CryptoNoteCore/CryptoNoteTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/CryptoNoteTools.h
+Wallet/WalletErrors.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Wallet/WalletErrors.h
+Wallet/WalletUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Wallet/WalletUtils.h
+WalletLegacy/KeysStorage.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletLegacy/KeysStorage.h
+WalletLegacy/WalletLegacySerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletLegacy/WalletLegacySerialization.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletSerializationV1.h
+IWalletLegacy.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/IWalletLegacy.h
+Common/IInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/IInputStream.h
+crypto/chacha8.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/crypto/chacha8.h
+Serialization/BinaryInputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Serialization/BinaryInputStreamSerializer.h
+Transfers/TransfersSynchronizer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Transfers/TransfersSynchronizer.h
+Wallet/WalletIndices.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Wallet/WalletIndices.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletSerializationV2.cpp
+WalletSerializationV2.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletSerializationV2.h
+CryptoNoteCore/CryptoNoteSerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/CryptoNoteSerialization.h
+Serialization/BinaryInputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Serialization/BinaryInputStreamSerializer.h
+Serialization/BinaryOutputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Serialization/BinaryOutputStreamSerializer.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletSerializationV2.h
+Common/IInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/IInputStream.h
+Common/IOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Common/IOutputStream.h
+Serialization/ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Serialization/ISerializer.h
+Transfers/TransfersSynchronizer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Transfers/TransfersSynchronizer.h
+Wallet/WalletIndices.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Wallet/WalletIndices.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletUtils.cpp
+WalletUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletUtils.h
+CryptoNote.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNote.h
+crypto/crypto.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/crypto/crypto.h
+Wallet/WalletErrors.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Wallet/WalletErrors.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/WalletUtils.h
+string
+-
+IWallet.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/IWallet.h
+CryptoNoteCore/Currency.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/CryptoNoteCore/Currency.h
+Wallet/WalletGreen.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Wallet/Wallet/WalletGreen.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/KeysStorage.cpp
+KeysStorage.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/KeysStorage.h
+WalletLegacy/WalletLegacySerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletLegacySerialization.h
+Serialization/ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/ISerializer.h
+Serialization/SerializationOverloads.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/SerializationOverloads.h
+CryptoNoteCore/CryptoNoteSerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/CryptoNoteSerialization.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/KeysStorage.h
+crypto/crypto.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/crypto/crypto.h
+stdint.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletHelper.cpp
+WalletHelper.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletHelper.h
+Common/PathTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Common/PathTools.h
+fstream
+-
+boost/filesystem.hpp
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletHelper.h
+future
+-
+map
+-
+mutex
+-
+crypto/hash.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/crypto/hash.h
+IWalletLegacy.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/IWalletLegacy.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy.cpp
+WalletLegacy.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy.h
+string.h
+-
+time.h
+-
+Logging/ConsoleLogger.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Logging/ConsoleLogger.h
+WalletLegacy/WalletHelper.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletHelper.h
+WalletLegacy/WalletLegacySerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletLegacySerialization.h
+WalletLegacy/WalletLegacySerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletLegacySerializer.h
+WalletLegacy/WalletUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletUtils.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy.h
+list
+-
+vector
+-
+unordered_map
+-
+memory
+-
+mutex
+-
+IWalletLegacy.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/IWalletLegacy.h
+INode.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/INode.h
+Wallet/WalletErrors.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Wallet/WalletErrors.h
+Wallet/WalletAsyncContextCounter.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Wallet/WalletAsyncContextCounter.h
+Common/ObserverManager.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Common/ObserverManager.h
+CryptoNoteCore/TransactionExtra.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/TransactionExtra.h
+CryptoNoteCore/CryptoNoteFormatUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/CryptoNoteFormatUtils.h
+CryptoNoteCore/Currency.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/Currency.h
+Logging/ConsoleLogger.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Logging/ConsoleLogger.h
+WalletLegacy/WalletUserTransactionsCache.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletUserTransactionsCache.h
+WalletLegacy/WalletUnconfirmedTransactions.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletUnconfirmedTransactions.h
+WalletLegacy/WalletTransactionSender.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletTransactionSender.h
+WalletLegacy/WalletRequest.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletRequest.h
+Transfers/BlockchainSynchronizer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Transfers/BlockchainSynchronizer.h
+Transfers/TransfersSynchronizer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Transfers/TransfersSynchronizer.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacySerialization.cpp
+WalletLegacySerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacySerialization.h
+WalletLegacy/WalletUnconfirmedTransactions.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletUnconfirmedTransactions.h
+IWalletLegacy.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/IWalletLegacy.h
+CryptoNoteCore/CryptoNoteSerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/CryptoNoteSerialization.h
+Serialization/ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/ISerializer.h
+Serialization/SerializationOverloads.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/SerializationOverloads.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacySerialization.h
+stdexcept
+-
+algorithm
+-
+string
+-
+IWalletLegacy.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/IWalletLegacy.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacySerializer.cpp
+WalletLegacySerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacySerializer.h
+stdexcept
+-
+Common/MemoryInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Common/MemoryInputStream.h
+Common/StdInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Common/StdInputStream.h
+Common/StdOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Common/StdOutputStream.h
+Serialization/BinaryOutputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/BinaryOutputStreamSerializer.h
+Serialization/BinaryInputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/BinaryInputStreamSerializer.h
+CryptoNoteCore/Account.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/Account.h
+CryptoNoteCore/CryptoNoteSerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/CryptoNoteSerialization.h
+WalletLegacy/WalletUserTransactionsCache.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletUserTransactionsCache.h
+Wallet/WalletErrors.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Wallet/WalletErrors.h
+Wallet/WalletUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Wallet/WalletUtils.h
+WalletLegacy/KeysStorage.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/KeysStorage.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacySerializer.h
+vector
+-
+ostream
+-
+istream
+-
+crypto/hash.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/crypto/hash.h
+crypto/chacha8.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/crypto/chacha8.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletTransactionSender.cpp
+crypto/crypto.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/crypto/crypto.h
+CryptoNoteCore/Account.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/Account.h
+CryptoNoteCore/CryptoNoteFormatUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/CryptoNoteFormatUtils.h
+CryptoNoteCore/CryptoNoteTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/CryptoNoteTools.h
+WalletLegacy/WalletTransactionSender.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletTransactionSender.h
+WalletLegacy/WalletUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletUtils.h
+CryptoNoteCore/CryptoNoteBasicImpl.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/CryptoNoteBasicImpl.h
+Logging/LoggerGroup.h
+-
+random
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletUnconfirmedTransactions.cpp
+WalletUnconfirmedTransactions.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletUnconfirmedTransactions.h
+WalletLegacy/WalletLegacySerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletLegacySerialization.h
+CryptoNoteCore/CryptoNoteTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/CryptoNoteTools.h
+Serialization/ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/ISerializer.h
+Serialization/SerializationOverloads.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/SerializationOverloads.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletUnconfirmedTransactions.h
+IWalletLegacy.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/IWalletLegacy.h
+ITransfersContainer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/ITransfersContainer.h
+unordered_map
+-
+unordered_set
+-
+time.h
+-
+boost/functional/hash.hpp
+-
+CryptoNoteCore/CryptoNoteBasic.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/CryptoNoteCore/CryptoNoteBasic.h
+crypto/crypto.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/crypto/crypto.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletUserTransactionsCache.cpp
+IWalletLegacy.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/IWalletLegacy.h
+Wallet/WalletErrors.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Wallet/WalletErrors.h
+WalletLegacy/WalletUserTransactionsCache.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletUserTransactionsCache.h
+WalletLegacy/WalletLegacySerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletLegacySerialization.h
+WalletLegacy/WalletUtils.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/WalletLegacy/WalletUtils.h
+Serialization/ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/ISerializer.h
+Serialization/SerializationOverloads.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/WalletLegacy/Serialization/SerializationOverloads.h
+algorithm
+-
+
+Common/CommandLine.h
+iostream
+-
+type_traits
+-
+boost/program_options/parsers.hpp
+-
+boost/program_options/options_description.hpp
+-
+boost/program_options/variables_map.hpp
+-
+
+Common/FileMappedVector.h
+cassert
+-
+cstdint
+-
+string
+-
+boost/filesystem.hpp
+-
+System/MemoryMappedFile.h
+Common/System/MemoryMappedFile.h
+Common/ScopeExit.h
+Common/Common/ScopeExit.h
+
+Common/IInputStream.h
+cstddef
+-
+
+Common/IOutputStream.h
+cstddef
+-
+
+Common/JsonValue.h
+cstddef
+-
+cstdint
+-
+map
+-
+string
+-
+vector
+-
+
+Common/MemoryInputStream.h
+IInputStream.h
+Common/IInputStream.h
+
+Common/ObserverManager.h
+algorithm
+-
+mutex
+-
+vector
+-
+
+Common/PathTools.h
+string
+-
+
+Common/ScopeExit.h
+functional
+-
+
+Common/ShuffleGenerator.h
+unordered_map
+-
+random
+-
+
+Common/StdInputStream.h
+istream
+-
+IInputStream.h
+Common/IInputStream.h
+
+Common/StdOutputStream.h
+ostream
+-
+IOutputStream.h
+Common/IOutputStream.h
+
+Common/StreamTools.h
+cstdint
+-
+ostream
+-
+vector
+-
+string
+-
+
+Common/StringOutputStream.h
+string
+-
+IOutputStream.h
+Common/IOutputStream.h
+
+Common/StringTools.h
+cstdint
+-
+sstream
+-
+stdexcept
+-
+vector
+-
+
+Common/StringView.h
+cassert
+-
+string
+-
+
+Common/VectorOutputStream.h
+cstdint
+-
+vector
+-
+IOutputStream.h
+Common/IOutputStream.h
+
+Common/int-util.h
+assert.h
+-
+stdbool.h
+-
+stdint.h
+-
+string.h
+-
+sys/param.h
+-
+stdlib.h
+-
+
+Common/static_assert.h
+
+CryptoNoteConfig.h
+cstddef
+-
+cstdint
+-
+limits
+-
+
+CryptoNoteCore/Account.h
+CryptoNoteCore/CryptoNoteBasic.h
+CryptoNoteCore/CryptoNoteCore/CryptoNoteBasic.h
+crypto/crypto.h
+CryptoNoteCore/crypto/crypto.h
+
+CryptoNoteCore/CachedBlock.h
+boost/optional.hpp
+-
+CryptoNote.h
+-
+
+CryptoNoteCore/CryptoNoteBasic.h
+boost/utility/value_init.hpp
+-
+CryptoNote.h
+-
+
+CryptoNoteCore/CryptoNoteBasicImpl.h
+Common/StringTools.h
+CryptoNoteCore/Common/StringTools.h
+crypto/crypto.h
+CryptoNoteCore/crypto/crypto.h
+crypto/hash.h
+CryptoNoteCore/crypto/hash.h
+CryptoNoteCore/CryptoNoteBasic.h
+CryptoNoteCore/CryptoNoteCore/CryptoNoteBasic.h
+
+CryptoNoteCore/CryptoNoteFormatUtils.h
+boost/utility/value_init.hpp
+-
+CryptoNoteBasic.h
+CryptoNoteCore/CryptoNoteBasic.h
+CryptoNoteSerialization.h
+CryptoNoteCore/CryptoNoteSerialization.h
+Serialization/BinaryOutputStreamSerializer.h
+CryptoNoteCore/Serialization/BinaryOutputStreamSerializer.h
+Serialization/BinaryInputStreamSerializer.h
+CryptoNoteCore/Serialization/BinaryInputStreamSerializer.h
+
+CryptoNoteCore/CryptoNoteSerialization.h
+CryptoNoteBasic.h
+CryptoNoteCore/CryptoNoteBasic.h
+crypto/chacha8.h
+CryptoNoteCore/crypto/chacha8.h
+Serialization/ISerializer.h
+CryptoNoteCore/Serialization/ISerializer.h
+crypto/crypto.h
+CryptoNoteCore/crypto/crypto.h
+
+CryptoNoteCore/CryptoNoteTools.h
+limits
+-
+Common/MemoryInputStream.h
+CryptoNoteCore/Common/MemoryInputStream.h
+Common/StringTools.h
+CryptoNoteCore/Common/StringTools.h
+Common/VectorOutputStream.h
+CryptoNoteCore/Common/VectorOutputStream.h
+Serialization/BinaryOutputStreamSerializer.h
+CryptoNoteCore/Serialization/BinaryOutputStreamSerializer.h
+Serialization/BinaryInputStreamSerializer.h
+CryptoNoteCore/Serialization/BinaryInputStreamSerializer.h
+CryptoNoteConfig.h
+CryptoNoteCore/CryptoNoteConfig.h
+CryptoNoteSerialization.h
+CryptoNoteCore/CryptoNoteSerialization.h
+
+CryptoNoteCore/Currency.h
+cstdint
+-
+string
+-
+vector
+-
+boost/utility.hpp
+-
+../CryptoNoteConfig.h
+CryptoNoteConfig.h
+../crypto/hash.h
+crypto/hash.h
+../Logging/LoggerRef.h
+Logging/LoggerRef.h
+CachedBlock.h
+CryptoNoteCore/CachedBlock.h
+CryptoNoteBasic.h
+CryptoNoteCore/CryptoNoteBasic.h
+Difficulty.h
+CryptoNoteCore/Difficulty.h
+
+CryptoNoteCore/Difficulty.h
+cstdint
+-
+vector
+-
+crypto/hash.h
+CryptoNoteCore/crypto/hash.h
+
+CryptoNoteCore/ICoreDefinitions.h
+vector
+-
+CryptoNote.h
+-
+CryptoTypes.h
+-
+
+CryptoNoteCore/TransactionApi.h
+memory
+-
+ITransaction.h
+CryptoNoteCore/ITransaction.h
+
+CryptoNoteCore/TransactionExtra.h
+vector
+-
+boost/variant.hpp
+-
+CryptoNote.h
+-
+
+CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+list
+-
+CryptoNoteCore/CryptoNoteBasic.h
+CryptoNoteProtocol/CryptoNoteCore/CryptoNoteBasic.h
+Serialization/ISerializer.h
+CryptoNoteProtocol/Serialization/ISerializer.h
+Serialization/SerializationOverloads.h
+CryptoNoteProtocol/Serialization/SerializationOverloads.h
+CryptoNoteCore/CryptoNoteSerialization.h
+CryptoNoteProtocol/CryptoNoteCore/CryptoNoteSerialization.h
+
+HTTP/HttpRequest.h
+iostream
+-
+map
+-
+string
+-
+
+HTTP/HttpResponse.h
+ostream
+-
+string
+-
+map
+-
+
+Logging/CommonLogger.h
+set
+-
+ILogger.h
+Logging/ILogger.h
+
+Logging/ConsoleLogger.h
+mutex
+-
+CommonLogger.h
+Logging/CommonLogger.h
+
+Logging/ILogger.h
+string
+-
+array
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+
+Logging/LoggerGroup.h
+vector
+-
+CommonLogger.h
+Logging/CommonLogger.h
+
+Logging/LoggerMessage.h
+iostream
+-
+ILogger.h
+Logging/ILogger.h
+
+Logging/LoggerRef.h
+ILogger.h
+Logging/ILogger.h
+LoggerMessage.h
+Logging/LoggerMessage.h
+
+Platform/Linux/System/Dispatcher.h
+cstddef
+-
+functional
+-
+queue
+-
+stack
+-
+
+Platform/Linux/System/Future.h
+future
+-
+
+Platform/Linux/System/TcpConnection.h
+cstddef
+-
+cstdint
+-
+string
+-
+Dispatcher.h
+Platform/Linux/System/Dispatcher.h
+
+Platform/Linux/System/TcpListener.h
+cstdint
+-
+string
+-
+
+Platform/Posix/System/MemoryMappedFile.h
+cstdint
+-
+string
+-
+system_error
+-
+
+Rpc/CoreRpcServerCommandsDefinitions.h
+CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+Rpc/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+CryptoNoteCore/CryptoNoteBasic.h
+Rpc/CryptoNoteCore/CryptoNoteBasic.h
+CryptoNoteCore/Difficulty.h
+Rpc/CryptoNoteCore/Difficulty.h
+crypto/hash.h
+Rpc/crypto/hash.h
+BlockchainExplorerData.h
+Rpc/BlockchainExplorerData.h
+Serialization/SerializationOverloads.h
+Rpc/Serialization/SerializationOverloads.h
+Serialization/BlockchainExplorerDataSerialization.h
+Rpc/Serialization/BlockchainExplorerDataSerialization.h
+CryptoNoteCore/ICoreDefinitions.h
+-
+
+Rpc/HttpServer.h
+unordered_set
+-
+HTTP/HttpRequest.h
+-
+HTTP/HttpResponse.h
+-
+System/ContextGroup.h
+-
+System/Dispatcher.h
+-
+System/TcpListener.h
+-
+System/TcpConnection.h
+-
+System/Event.h
+-
+Logging/LoggerRef.h
+-
+
+Rpc/JsonRpc.h
+boost/optional.hpp
+-
+boost/foreach.hpp
+-
+functional
+-
+CoreRpcServerCommandsDefinitions.h
+Rpc/CoreRpcServerCommandsDefinitions.h
+Common/JsonValue.h
+-
+Serialization/ISerializer.h
+Rpc/Serialization/ISerializer.h
+Serialization/SerializationTools.h
+Rpc/Serialization/SerializationTools.h
+
+Serialization/BinaryInputStreamSerializer.h
+Common/IInputStream.h
+-
+ISerializer.h
+Serialization/ISerializer.h
+SerializationOverloads.h
+Serialization/SerializationOverloads.h
+
+Serialization/BinaryOutputStreamSerializer.h
+Common/IOutputStream.h
+Serialization/Common/IOutputStream.h
+ISerializer.h
+Serialization/ISerializer.h
+SerializationOverloads.h
+Serialization/SerializationOverloads.h
+
+Serialization/BlockchainExplorerDataSerialization.h
+BlockchainExplorerData.h
+Serialization/BlockchainExplorerData.h
+Serialization/ISerializer.h
+Serialization/Serialization/ISerializer.h
+
+Serialization/ISerializer.h
+string
+-
+cstdint
+-
+Common/StringView.h
+-
+
+Serialization/JsonInputStreamSerializer.h
+iosfwd
+-
+string
+-
+vector
+-
+../Common/JsonValue.h
+Common/JsonValue.h
+JsonInputValueSerializer.h
+Serialization/JsonInputValueSerializer.h
+
+Serialization/JsonInputValueSerializer.h
+Common/JsonValue.h
+Serialization/Common/JsonValue.h
+ISerializer.h
+Serialization/ISerializer.h
+
+Serialization/JsonOutputStreamSerializer.h
+iostream
+-
+../Common/JsonValue.h
+Common/JsonValue.h
+ISerializer.h
+Serialization/ISerializer.h
+
+Serialization/KVBinaryInputStreamSerializer.h
+Common/IInputStream.h
+-
+ISerializer.h
+Serialization/ISerializer.h
+JsonInputValueSerializer.h
+Serialization/JsonInputValueSerializer.h
+
+Serialization/KVBinaryOutputStreamSerializer.h
+vector
+-
+Common/IOutputStream.h
+-
+ISerializer.h
+Serialization/ISerializer.h
+MemoryStream.h
+Serialization/MemoryStream.h
+
+Serialization/MemoryStream.h
+algorithm
+-
+cstdint
+-
+cstring
+-
+vector
+-
+Common/IOutputStream.h
+-
+
+Serialization/SerializationOverloads.h
+ISerializer.h
+Serialization/ISerializer.h
+array
+-
+cstring
+-
+list
+-
+map
+-
+string
+-
+set
+-
+type_traits
+-
+vector
+-
+map
+-
+unordered_map
+-
+unordered_set
+-
+
+Serialization/SerializationTools.h
+list
+-
+vector
+-
+Common/MemoryInputStream.h
+-
+Common/StringOutputStream.h
+-
+JsonInputStreamSerializer.h
+Serialization/JsonInputStreamSerializer.h
+JsonOutputStreamSerializer.h
+Serialization/JsonOutputStreamSerializer.h
+KVBinaryInputStreamSerializer.h
+Serialization/KVBinaryInputStreamSerializer.h
+KVBinaryOutputStreamSerializer.h
+Serialization/KVBinaryOutputStreamSerializer.h
+
+System/ContextGroup.h
+System/Dispatcher.h
+-
+
+System/Event.h
+
+System/EventLock.h
+
+System/InterruptedException.h
+exception
+-
+
+System/RemoteContext.h
+cassert
+-
+System/Dispatcher.h
+-
+System/Event.h
+-
+System/Future.h
+-
+System/InterruptedException.h
+-
+
+Transfers/BlockchainSynchronizer.h
+INode.h
+Transfers/INode.h
+SynchronizationState.h
+Transfers/SynchronizationState.h
+IBlockchainSynchronizer.h
+Transfers/IBlockchainSynchronizer.h
+IObservableImpl.h
+Transfers/IObservableImpl.h
+IStreamSerializable.h
+Transfers/IStreamSerializable.h
+condition_variable
+-
+mutex
+-
+atomic
+-
+future
+-
+Logging/LoggerRef.h
+Transfers/Logging/LoggerRef.h
+
+Transfers/CommonTypes.h
+array
+-
+memory
+-
+cstdint
+-
+boost/optional.hpp
+-
+INode.h
+Transfers/INode.h
+ITransaction.h
+Transfers/ITransaction.h
+
+Transfers/IBlockchainSynchronizer.h
+cstdint
+-
+future
+-
+system_error
+-
+unordered_set
+-
+crypto/crypto.h
+Transfers/crypto/crypto.h
+CryptoNoteCore/CryptoNoteBasic.h
+Transfers/CryptoNoteCore/CryptoNoteBasic.h
+IObservable.h
+Transfers/IObservable.h
+IStreamSerializable.h
+Transfers/IStreamSerializable.h
+ITransfersSynchronizer.h
+Transfers/ITransfersSynchronizer.h
+
+Transfers/IObservableImpl.h
+Common/ObserverManager.h
+Transfers/Common/ObserverManager.h
+
+Transfers/SynchronizationState.h
+CommonTypes.h
+Transfers/CommonTypes.h
+IStreamSerializable.h
+Transfers/IStreamSerializable.h
+Serialization/ISerializer.h
+Transfers/Serialization/ISerializer.h
+vector
+-
+map
+-
+
+Transfers/TransfersContainer.h
+cstdint
+-
+unordered_map
+-
+mutex
+-
+boost/multi_index_container.hpp
+-
+boost/multi_index/hashed_index.hpp
+-
+boost/multi_index/member.hpp
+-
+boost/multi_index/mem_fun.hpp
+-
+boost/multi_index/ordered_index.hpp
+-
+crypto/crypto.h
+Transfers/crypto/crypto.h
+CryptoNoteCore/CryptoNoteBasic.h
+Transfers/CryptoNoteCore/CryptoNoteBasic.h
+CryptoNoteCore/CryptoNoteSerialization.h
+Transfers/CryptoNoteCore/CryptoNoteSerialization.h
+CryptoNoteCore/Currency.h
+Transfers/CryptoNoteCore/Currency.h
+Logging/LoggerRef.h
+Transfers/Logging/LoggerRef.h
+Serialization/ISerializer.h
+Transfers/Serialization/ISerializer.h
+Serialization/SerializationOverloads.h
+Transfers/Serialization/SerializationOverloads.h
+ITransaction.h
+Transfers/ITransaction.h
+ITransfersContainer.h
+Transfers/ITransfersContainer.h
+
+Transfers/TransfersSynchronizer.h
+Common/ObserverManager.h
+Transfers/Common/ObserverManager.h
+ITransfersSynchronizer.h
+Transfers/ITransfersSynchronizer.h
+IBlockchainSynchronizer.h
+Transfers/IBlockchainSynchronizer.h
+TypeHelpers.h
+Transfers/TypeHelpers.h
+unordered_map
+-
+memory
+-
+cstring
+-
+Logging/LoggerRef.h
+Transfers/Logging/LoggerRef.h
+
+Transfers/TypeHelpers.h
+ITransaction.h
+Transfers/ITransaction.h
+functional
+-
+cstring
+-
+
+Wallet/IFusionManager.h
+cstdint
+-
+utility
+-
+
+Wallet/WalletAsyncContextCounter.h
+condition_variable
+-
+mutex
+-
+stdint.h
+-
+
+Wallet/WalletErrors.h
+string
+-
+system_error
+-
+
+Wallet/WalletGreen.h
+IWallet.h
+Wallet/IWallet.h
+queue
+-
+unordered_map
+-
+IFusionManager.h
+Wallet/IFusionManager.h
+WalletIndices.h
+Wallet/WalletIndices.h
+Logging/LoggerRef.h
+Wallet/Logging/LoggerRef.h
+System/Dispatcher.h
+-
+System/Event.h
+-
+Transfers/TransfersSynchronizer.h
+Wallet/Transfers/TransfersSynchronizer.h
+Transfers/BlockchainSynchronizer.h
+Wallet/Transfers/BlockchainSynchronizer.h
+
+Wallet/WalletIndices.h
+map
+-
+unordered_map
+-
+ITransfersContainer.h
+Wallet/ITransfersContainer.h
+IWallet.h
+Wallet/IWallet.h
+boost/multi_index_container.hpp
+-
+boost/multi_index/ordered_index.hpp
+-
+boost/multi_index/random_access_index.hpp
+-
+boost/multi_index/hashed_index.hpp
+-
+boost/multi_index/composite_key.hpp
+-
+boost/multi_index/member.hpp
+-
+Common/FileMappedVector.h
+Wallet/Common/FileMappedVector.h
+crypto/chacha8.h
+Wallet/crypto/chacha8.h
+
+Wallet/WalletUtils.h
+string
+-
+IWallet.h
+Wallet/IWallet.h
+CryptoNoteCore/Currency.h
+Wallet/CryptoNoteCore/Currency.h
+Wallet/WalletGreen.h
+Wallet/Wallet/WalletGreen.h
+
+WalletLegacy/KeysStorage.h
+crypto/crypto.h
+WalletLegacy/crypto/crypto.h
+stdint.h
+-
+
+WalletLegacy/WalletHelper.h
+future
+-
+map
+-
+mutex
+-
+crypto/hash.h
+WalletLegacy/crypto/hash.h
+IWalletLegacy.h
+WalletLegacy/IWalletLegacy.h
+
+WalletLegacy/WalletLegacy.h
+list
+-
+vector
+-
+unordered_map
+-
+memory
+-
+mutex
+-
+IWalletLegacy.h
+WalletLegacy/IWalletLegacy.h
+INode.h
+WalletLegacy/INode.h
+Wallet/WalletErrors.h
+WalletLegacy/Wallet/WalletErrors.h
+Wallet/WalletAsyncContextCounter.h
+WalletLegacy/Wallet/WalletAsyncContextCounter.h
+Common/ObserverManager.h
+WalletLegacy/Common/ObserverManager.h
+CryptoNoteCore/TransactionExtra.h
+WalletLegacy/CryptoNoteCore/TransactionExtra.h
+CryptoNoteCore/CryptoNoteFormatUtils.h
+WalletLegacy/CryptoNoteCore/CryptoNoteFormatUtils.h
+CryptoNoteCore/Currency.h
+WalletLegacy/CryptoNoteCore/Currency.h
+Logging/ConsoleLogger.h
+WalletLegacy/Logging/ConsoleLogger.h
+WalletLegacy/WalletUserTransactionsCache.h
+WalletLegacy/WalletLegacy/WalletUserTransactionsCache.h
+WalletLegacy/WalletUnconfirmedTransactions.h
+WalletLegacy/WalletLegacy/WalletUnconfirmedTransactions.h
+WalletLegacy/WalletTransactionSender.h
+WalletLegacy/WalletLegacy/WalletTransactionSender.h
+WalletLegacy/WalletRequest.h
+WalletLegacy/WalletLegacy/WalletRequest.h
+Transfers/BlockchainSynchronizer.h
+WalletLegacy/Transfers/BlockchainSynchronizer.h
+Transfers/TransfersSynchronizer.h
+WalletLegacy/Transfers/TransfersSynchronizer.h
+
+WalletLegacy/WalletLegacyEvent.h
+IWalletLegacy.h
+WalletLegacy/IWalletLegacy.h
+Common/ObserverManager.h
+WalletLegacy/Common/ObserverManager.h
+
+WalletLegacy/WalletLegacySerialization.h
+stdexcept
+-
+algorithm
+-
+string
+-
+IWalletLegacy.h
+WalletLegacy/IWalletLegacy.h
+
+WalletLegacy/WalletLegacySerializer.h
+vector
+-
+ostream
+-
+istream
+-
+crypto/hash.h
+WalletLegacy/crypto/hash.h
+crypto/chacha8.h
+WalletLegacy/crypto/chacha8.h
+
+WalletLegacy/WalletRequest.h
+INode.h
+WalletLegacy/INode.h
+WalletLegacy/WalletSendTransactionContext.h
+WalletLegacy/WalletLegacy/WalletSendTransactionContext.h
+WalletLegacy/WalletLegacyEvent.h
+WalletLegacy/WalletLegacy/WalletLegacyEvent.h
+boost/optional.hpp
+-
+deque
+-
+functional
+-
+memory
+-
+
+WalletLegacy/WalletSendTransactionContext.h
+list
+-
+vector
+-
+CryptoNoteCore/CryptoNoteBasic.h
+WalletLegacy/CryptoNoteCore/CryptoNoteBasic.h
+IWalletLegacy.h
+WalletLegacy/IWalletLegacy.h
+ITransfersContainer.h
+WalletLegacy/ITransfersContainer.h
+
+WalletLegacy/WalletTransactionSender.h
+CryptoNoteCore/Account.h
+WalletLegacy/CryptoNoteCore/Account.h
+CryptoNoteCore/Currency.h
+WalletLegacy/CryptoNoteCore/Currency.h
+INode.h
+WalletLegacy/INode.h
+WalletLegacy/WalletSendTransactionContext.h
+WalletLegacy/WalletLegacy/WalletSendTransactionContext.h
+WalletLegacy/WalletUserTransactionsCache.h
+WalletLegacy/WalletLegacy/WalletUserTransactionsCache.h
+WalletLegacy/WalletUnconfirmedTransactions.h
+WalletLegacy/WalletLegacy/WalletUnconfirmedTransactions.h
+WalletLegacy/WalletRequest.h
+WalletLegacy/WalletLegacy/WalletRequest.h
+ITransfersContainer.h
+WalletLegacy/ITransfersContainer.h
+
+WalletLegacy/WalletUnconfirmedTransactions.h
+IWalletLegacy.h
+WalletLegacy/IWalletLegacy.h
+ITransfersContainer.h
+WalletLegacy/ITransfersContainer.h
+unordered_map
+-
+unordered_set
+-
+time.h
+-
+boost/functional/hash.hpp
+-
+CryptoNoteCore/CryptoNoteBasic.h
+WalletLegacy/CryptoNoteCore/CryptoNoteBasic.h
+crypto/crypto.h
+WalletLegacy/crypto/crypto.h
+
+WalletLegacy/WalletUserTransactionsCache.h
+crypto/hash.h
+WalletLegacy/crypto/hash.h
+IWalletLegacy.h
+WalletLegacy/IWalletLegacy.h
+ITransfersContainer.h
+WalletLegacy/ITransfersContainer.h
+WalletLegacy/WalletLegacyEvent.h
+WalletLegacy/WalletLegacy/WalletLegacyEvent.h
+WalletLegacy/WalletUnconfirmedTransactions.h
+WalletLegacy/WalletLegacy/WalletUnconfirmedTransactions.h
+
+WalletLegacy/WalletUtils.h
+exception
+-
+iomanip
+-
+iostream
+-
+IWalletLegacy.h
+WalletLegacy/IWalletLegacy.h
+Wallet/WalletErrors.h
+WalletLegacy/Wallet/WalletErrors.h
+
+crypto/chacha8.h
+stdint.h
+-
+stddef.h
+-
+memory.h
+-
+string
+-
+hash.h
+crypto/hash.h
+
+crypto/crypto.h
+cstddef
+-
+limits
+-
+mutex
+-
+type_traits
+-
+vector
+-
+CryptoTypes.h
+-
+generic-ops.h
+crypto/generic-ops.h
+hash.h
+crypto/hash.h
+random.h
+crypto/random.h
+
+crypto/generic-ops.h
+cstddef
+-
+cstring
+-
+functional
+-
+
+crypto/hash-ops.h
+assert.h
+-
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+../Common/static_assert.h
+Common/static_assert.h
+Common/int-util.h
+crypto/Common/int-util.h
+
+crypto/hash.h
+stddef.h
+-
+CryptoTypes.h
+-
+generic-ops.h
+crypto/generic-ops.h
+hash-ops.h
+crypto/hash-ops.h
+
+crypto/random.h
+stddef.h
+-
+

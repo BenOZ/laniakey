@@ -1,0 +1,108 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6af7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6af7.dir/build.make CMakeFiles/cmTC_f6af7.dir/build
+make[1]: Entering directory '/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6af7.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Wno-logical-op -Wno-error=terminate -Wno-error=init-self -Wno-format-truncation -Wno-implicit-fallthrough -Wno-error=stringop-overflow -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes    -o CMakeFiles/cmTC_f6af7.dir/CheckSymbolExists.c.o   -c "/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_f6af7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6af7.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Wno-logical-op -Wno-error=terminate -Wno-error=init-self -Wno-format-truncation -Wno-implicit-fallthrough -Wno-error=stringop-overflow -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes     -rdynamic CMakeFiles/cmTC_f6af7.dir/CheckSymbolExists.c.o  -o cmTC_f6af7 
+CMakeFiles/cmTC_f6af7.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f6af7.dir/build.make:97: recipe for target 'cmTC_f6af7' failed
+make[1]: *** [cmTC_f6af7] Error 1
+make[1]: Leaving directory '/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f6af7/fast' failed
+make: *** [cmTC_f6af7/fast] Error 2
+
+File /home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7c15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c7c15.dir/build.make CMakeFiles/cmTC_c7c15.dir/build
+make[1]: Entering directory '/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7c15.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Wno-logical-op -Wno-error=terminate -Wno-error=init-self -Wno-format-truncation -Wno-implicit-fallthrough -Wno-error=stringop-overflow -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c7c15.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7c15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7c15.dir/link.txt --verbose=1
+/usr/bin/cc  -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Wno-logical-op -Wno-error=terminate -Wno-error=init-self -Wno-format-truncation -Wno-implicit-fallthrough -Wno-error=stringop-overflow -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c7c15.dir/CheckFunctionExists.c.o  -o cmTC_c7c15 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c7c15.dir/build.make:97: recipe for target 'cmTC_c7c15' failed
+make[1]: *** [cmTC_c7c15] Error 1
+make[1]: Leaving directory '/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c7c15/fast' failed
+make: *** [cmTC_c7c15/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_FALLOCATE failed with the following output:
+Change Dir: /home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8847/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8847.dir/build.make CMakeFiles/cmTC_b8847.dir/build
+make[1]: Entering directory '/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8847.dir/src.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Wno-logical-op -Wno-error=terminate -Wno-error=init-self -Wno-format-truncation -Wno-implicit-fallthrough -Wno-error=stringop-overflow -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DHAVE_FALLOCATE  -pthread -std=c++11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Wno-logical-op -Wno-error=terminate -Wno-error=init-self -Wno-format-truncation -Wno-implicit-fallthrough -Wno-error=stringop-overflow -Wno-reorder -Wno-missing-field-initializers -march=native -maes   -o CMakeFiles/cmTC_b8847.dir/src.c.o   -c "/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp/src.c"
+cc1: error: command line option ‘-Wno-reorder’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: error: command line option ‘-std=c++11’ is valid for C++/ObjC++ but not for C [-Werror]
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp/src.c:4:5: error: function declaration isn’t a prototype [-Werror=strict-prototypes]
+ int main() {
+     ^~~~
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp/src.c:4:5: error: old-style function definition [-Werror=old-style-definition]
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp/src.c:6:2: error: implicit declaration of function ‘fallocate’ [-Werror=implicit-function-declaration]
+  fallocate(fd, FALLOC_FL_KEEP_SIZE | FALLOC_FL_PUNCH_HOLE, 0, 1024);
+  ^~~~~~~~~
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp/src.c:6:2: error: nested extern declaration of ‘fallocate’ [-Werror=nested-externs]
+cc1: all warnings being treated as errors
+CMakeFiles/cmTC_b8847.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b8847.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b8847.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b8847/fast' failed
+make: *** [cmTC_b8847/fast] Error 2
+
+Source file was:
+
+#include <fcntl.h>
+#include <linux/falloc.h>
+int main() {
+ int fd = open("/dev/null", 0);
+ fallocate(fd, FALLOC_FL_KEEP_SIZE | FALLOC_FL_PUNCH_HOLE, 0, 1024);
+}
+
+Determining if the function malloc_usable_size exists failed with the following output:
+Change Dir: /home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36d0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36d0e.dir/build.make CMakeFiles/cmTC_36d0e.dir/build
+make[1]: Entering directory '/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36d0e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Wno-logical-op -Wno-error=terminate -Wno-error=init-self -Wno-format-truncation -Wno-implicit-fallthrough -Wno-error=stringop-overflow -Waggregate-return -Wnested-externs -Wold-style-definition -Wstrict-prototypes -march=native -maes -DCHECK_FUNCTION_EXISTS=malloc_usable_size  -pthread -std=c++11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings -Werror -Wno-error=extra -Wno-error=unused-function -Wno-error=deprecated-declarations -Wno-error=sign-compare -Wno-error=strict-aliasing -Wno-error=type-limits -Wno-unused-parameter -Wno-error=unused-variable -Wno-error=undef -Wno-error=uninitialized -Wno-error=unused-result -Wlogical-op -Wno-error=maybe-uninitialized -Wno-error=clobbered -Wno-error=unused-but-set-variable -Wno-error=odr -Wno-logical-op -Wno-error=terminate -Wno-error=init-self -Wno-format-truncation -Wno-implicit-fallthrough -Wno-error=stringop-overflow -Wno-reorder -Wno-missing-field-initializers -march=native -maes   -o CMakeFiles/cmTC_36d0e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+cc1: error: command line option ‘-Wno-reorder’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: error: command line option ‘-std=c++11’ is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+CMakeFiles/cmTC_36d0e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_36d0e.dir/CheckFunctionExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_36d0e.dir/CheckFunctionExists.c.o] Error 1
+make[1]: Leaving directory '/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_36d0e/fast' failed
+make: *** [cmTC_36d0e/fast] Error 2
+
+

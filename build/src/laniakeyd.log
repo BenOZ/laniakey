@@ -1,0 +1,120 @@
+2019-Mar-19 17:04:05.302929 INFO    [daemon] laniakey v0.9.9 RELEASE (9e5e4bd)
+2019-Mar-19 17:04:05.303285 INFO    [daemon] Module folder: ./laniakeyd
+2019-Mar-19 17:04:05.303462 INFO    [RocksDBWrapper] Opening DB in /home/maksymdodon/.laniakey/DB
+2019-Mar-19 17:04:05.375577 INFO    [RocksDBWrapper] DB opened in /home/maksymdodon/.laniakey/DB
+2019-Mar-19 17:04:05.375730 INFO    [daemon] Initializing core...
+2019-Mar-19 17:04:05.377353 INFO    [Core] DB has more blocks than blockchain storage, cutting from block index: 665
+2019-Mar-19 17:04:05.377393 INFO    [Core] Cutting root segment from index 665
+2019-Mar-19 17:04:05.378470 INFO    [daemon] Core initialized OK
+2019-Mar-19 17:04:05.378513 INFO    [daemon] Initializing p2p server...
+2019-Mar-19 17:04:05.378617 INFO    [node_server] Binding on 0.0.0.0:26080
+2019-Mar-19 17:04:05.378658 INFO    [node_server] Net service binded on 0.0.0.0:26080
+2019-Mar-19 17:04:05.378706 INFO    [node_server] Attempting to add IGD port mapping.
+2019-Mar-19 17:04:09.383194 INFO    [node_server] No IGD was found.
+2019-Mar-19 17:04:09.383408 INFO    [daemon] P2p server initialized OK
+2019-Mar-19 17:04:09.383644 INFO    [daemon] Starting core rpc server on address 127.0.0.1:26081
+2019-Mar-19 17:04:09.383834 INFO    [daemon] Core rpc server started ok
+2019-Mar-19 17:04:09.383943 INFO    [daemon] Starting p2p net loop...
+2019-Mar-19 17:04:09.384029 INFO    [node_server] Starting node_server
+2019-Mar-19 17:04:14.493491 INFO    [protocol] 
+2019-Mar-19 17:04:14.493491 INFO    [protocol] **********************************************************************
+2019-Mar-19 17:04:14.493491 INFO    [protocol] You are now synchronized with the Laniakey network.
+2019-Mar-19 17:04:14.493491 INFO    [protocol] 
+2019-Mar-19 17:04:14.493491 INFO    [protocol] Exit laniakeyd and simplewallet with the "exit" or "save" command.
+2019-Mar-19 17:04:14.493491 INFO    [protocol] Otherwise, you may lose your blockchain and wallet data.
+2019-Mar-19 17:04:14.493491 INFO    [protocol] 
+2019-Mar-19 17:04:14.493491 INFO    [protocol] Use "help" command to see the list of available commands.
+2019-Mar-19 17:04:14.493491 INFO    [protocol] **********************************************************************
+2019-Mar-19 17:09:15.037728 INFO    [protocol] Connections: 
+2019-Mar-19 17:09:15.037728 INFO    [protocol] Remote Host              Peer id             Recv/Sent (inactive,sec) State                    Lifetime(seconds)   
+
+2019-Mar-19 17:09:45.051652 INFO    [daemon] laniakey v0.9.9 RELEASE (9e5e4bd)
+2019-Mar-19 17:09:45.051928 INFO    [daemon] Module folder: ./laniakeyd
+2019-Mar-19 17:09:45.052107 INFO    [RocksDBWrapper] Opening DB in /home/maksymdodon/.laniakey/DB
+2019-Mar-19 17:09:45.117962 INFO    [RocksDBWrapper] DB opened in /home/maksymdodon/.laniakey/DB
+2019-Mar-19 17:09:45.118120 INFO    [daemon] Initializing core...
+2019-Mar-19 17:09:45.119636 INFO    [daemon] Core initialized OK
+2019-Mar-19 17:09:45.119681 INFO    [daemon] Initializing p2p server...
+2019-Mar-19 17:09:45.119810 INFO    [node_server] Binding on 0.0.0.0:26080
+2019-Mar-19 17:09:45.119852 INFO    [node_server] Net service binded on 0.0.0.0:26080
+2019-Mar-19 17:09:45.119896 INFO    [node_server] Attempting to add IGD port mapping.
+2019-Mar-19 17:09:49.123264 INFO    [node_server] No IGD was found.
+2019-Mar-19 17:09:49.123414 INFO    [daemon] P2p server initialized OK
+2019-Mar-19 17:09:49.123596 INFO    [daemon] Starting core rpc server on address 127.0.0.1:26081
+2019-Mar-19 17:09:49.123714 INFO    [daemon] Core rpc server started ok
+2019-Mar-19 17:09:49.123776 INFO    [daemon] Starting p2p net loop...
+2019-Mar-19 17:09:49.123825 INFO    [node_server] Starting node_server
+2019-Mar-19 17:09:54.125565 INFO    [protocol] 
+2019-Mar-19 17:09:54.125565 INFO    [protocol] **********************************************************************
+2019-Mar-19 17:09:54.125565 INFO    [protocol] You are now synchronized with the Laniakey network.
+2019-Mar-19 17:09:54.125565 INFO    [protocol] 
+2019-Mar-19 17:09:54.125565 INFO    [protocol] Exit laniakeyd and simplewallet with the "exit" or "save" command.
+2019-Mar-19 17:09:54.125565 INFO    [protocol] Otherwise, you may lose your blockchain and wallet data.
+2019-Mar-19 17:09:54.125565 INFO    [protocol] 
+2019-Mar-19 17:09:54.125565 INFO    [protocol] Use "help" command to see the list of available commands.
+2019-Mar-19 17:09:54.125565 INFO    [protocol] **********************************************************************
+2019-Mar-19 17:10:32.969654 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:14:23.713232 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:14:33.737774 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:14:43.757882 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:14:48.769248 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:15:03.805856 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:15:08.817857 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:15:23.853840 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:15:38.890561 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:15:48.917854 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:16:13.977397 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:47:46.064889 INFO    [daemon] laniakey v0.9.9 RELEASE (9e5e4bd)
+2019-Mar-19 17:47:46.065074 INFO    [daemon] Module folder: ./laniakeyd
+2019-Mar-19 17:47:46.065186 INFO    [RocksDBWrapper] Opening DB in /home/maksymdodon/.laniakey/DB
+2019-Mar-19 17:47:46.130192 INFO    [RocksDBWrapper] DB opened in /home/maksymdodon/.laniakey/DB
+2019-Mar-19 17:47:46.130355 INFO    [daemon] Initializing core...
+2019-Mar-19 17:47:46.132721 INFO    [Core] DB has more blocks than blockchain storage, cutting from block index: 675
+2019-Mar-19 17:47:46.132767 INFO    [Core] Cutting root segment from index 675
+2019-Mar-19 17:47:46.133813 INFO    [daemon] Core initialized OK
+2019-Mar-19 17:47:46.133857 INFO    [daemon] Initializing p2p server...
+2019-Mar-19 17:47:46.133981 INFO    [node_server] Binding on 0.0.0.0:26080
+2019-Mar-19 17:47:46.134022 INFO    [node_server] Net service binded on 0.0.0.0:26080
+2019-Mar-19 17:47:46.134067 INFO    [node_server] Attempting to add IGD port mapping.
+2019-Mar-19 17:47:50.138583 INFO    [node_server] No IGD was found.
+2019-Mar-19 17:47:50.138692 INFO    [daemon] P2p server initialized OK
+2019-Mar-19 17:47:50.138937 INFO    [daemon] Starting core rpc server on address 127.0.0.1:26081
+2019-Mar-19 17:47:50.139028 INFO    [daemon] Core rpc server started ok
+2019-Mar-19 17:47:50.139075 INFO    [daemon] Starting p2p net loop...
+2019-Mar-19 17:47:50.139112 INFO    [node_server] Starting node_server
+2019-Mar-19 17:47:50.140457 INFO    [protocol] 
+2019-Mar-19 17:47:50.140457 INFO    [protocol] **********************************************************************
+2019-Mar-19 17:47:50.140457 INFO    [protocol] You are now synchronized with the Laniakey network.
+2019-Mar-19 17:47:50.140457 INFO    [protocol] 
+2019-Mar-19 17:47:50.140457 INFO    [protocol] Exit laniakeyd and simplewallet with the "exit" or "save" command.
+2019-Mar-19 17:47:50.140457 INFO    [protocol] Otherwise, you may lose your blockchain and wallet data.
+2019-Mar-19 17:47:50.140457 INFO    [protocol] 
+2019-Mar-19 17:47:50.140457 INFO    [protocol] Use "help" command to see the list of available commands.
+2019-Mar-19 17:47:50.140457 INFO    [protocol] **********************************************************************
+2019-Mar-19 17:48:00.718104 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.
+2019-Mar-19 17:55:29.211706 INFO    [daemon] laniakey v0.9.9 RELEASE (9e5e4bd)
+2019-Mar-19 17:55:29.211908 INFO    [daemon] Module folder: ./laniakeyd
+2019-Mar-19 17:55:29.212033 INFO    [RocksDBWrapper] Opening DB in /home/maksymdodon/.laniakey/DB
+2019-Mar-19 17:55:29.289821 INFO    [RocksDBWrapper] DB opened in /home/maksymdodon/.laniakey/DB
+2019-Mar-19 17:55:29.289986 INFO    [daemon] Initializing core...
+2019-Mar-19 17:55:29.291666 INFO    [daemon] Core initialized OK
+2019-Mar-19 17:55:29.291710 INFO    [daemon] Initializing p2p server...
+2019-Mar-19 17:55:29.291834 INFO    [node_server] Binding on 0.0.0.0:26080
+2019-Mar-19 17:55:29.291876 INFO    [node_server] Net service binded on 0.0.0.0:26080
+2019-Mar-19 17:55:29.291921 INFO    [node_server] Attempting to add IGD port mapping.
+2019-Mar-19 17:55:33.297653 INFO    [node_server] No IGD was found.
+2019-Mar-19 17:55:33.297879 INFO    [daemon] P2p server initialized OK
+2019-Mar-19 17:55:33.298126 INFO    [daemon] Starting core rpc server on address 127.0.0.1:26081
+2019-Mar-19 17:55:33.298297 INFO    [daemon] Core rpc server started ok
+2019-Mar-19 17:55:33.298391 INFO    [daemon] Starting p2p net loop...
+2019-Mar-19 17:55:33.298480 INFO    [node_server] Starting node_server
+2019-Mar-19 17:55:33.301096 INFO    [protocol] 
+2019-Mar-19 17:55:33.301096 INFO    [protocol] **********************************************************************
+2019-Mar-19 17:55:33.301096 INFO    [protocol] You are now synchronized with the Laniakey network.
+2019-Mar-19 17:55:33.301096 INFO    [protocol] 
+2019-Mar-19 17:55:33.301096 INFO    [protocol] Exit laniakeyd and simplewallet with the "exit" or "save" command.
+2019-Mar-19 17:55:33.301096 INFO    [protocol] Otherwise, you may lose your blockchain and wallet data.
+2019-Mar-19 17:55:33.301096 INFO    [protocol] 
+2019-Mar-19 17:55:33.301096 INFO    [protocol] Use "help" command to see the list of available commands.
+2019-Mar-19 17:55:33.301096 INFO    [protocol] **********************************************************************
+2019-Mar-19 17:55:45.193727 ERROR   [Core] Failed to query blocks: Genesis block hash was not found.

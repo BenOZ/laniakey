@@ -1,0 +1,452 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/BlockchainExplorerData.h
+array
+-
+string
+-
+vector
+-
+CryptoTypes.h
+../include/CryptoTypes.h
+CryptoNote.h
+../include/CryptoNote.h
+boost/variant.hpp
+-
+
+../include/CryptoNote.h
+vector
+-
+boost/variant.hpp
+-
+CryptoTypes.h
+../include/CryptoTypes.h
+
+../include/CryptoTypes.h
+cstdint
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/JsonValue.h
+cstddef
+-
+cstdint
+-
+map
+-
+string
+-
+vector
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BinaryInputStreamSerializer.cpp
+BinaryInputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BinaryInputStreamSerializer.h
+algorithm
+-
+cassert
+-
+stdexcept
+-
+Common/StreamTools.h
+-
+SerializationOverloads.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/SerializationOverloads.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BinaryInputStreamSerializer.h
+Common/IInputStream.h
+-
+ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/ISerializer.h
+SerializationOverloads.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/SerializationOverloads.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BinaryOutputStreamSerializer.cpp
+BinaryOutputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BinaryOutputStreamSerializer.h
+cassert
+-
+stdexcept
+-
+Common/StreamTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/Common/StreamTools.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BinaryOutputStreamSerializer.h
+Common/IOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/Common/IOutputStream.h
+ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/ISerializer.h
+SerializationOverloads.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/SerializationOverloads.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BlockchainExplorerDataSerialization.cpp
+BlockchainExplorerDataSerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BlockchainExplorerDataSerialization.h
+stdexcept
+-
+boost/variant/static_visitor.hpp
+-
+boost/variant/apply_visitor.hpp
+-
+CryptoNoteCore/CryptoNoteSerialization.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/CryptoNoteCore/CryptoNoteSerialization.h
+Serialization/SerializationOverloads.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/Serialization/SerializationOverloads.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BlockchainExplorerDataSerialization.h
+BlockchainExplorerData.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/BlockchainExplorerData.h
+Serialization/ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/Serialization/ISerializer.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/ISerializer.h
+string
+-
+cstdint
+-
+Common/StringView.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/JsonInputStreamSerializer.cpp
+Serialization/JsonInputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/Serialization/JsonInputStreamSerializer.h
+ctype.h
+-
+exception
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/JsonInputValueSerializer.cpp
+JsonInputValueSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/JsonInputValueSerializer.h
+cassert
+-
+stdexcept
+-
+Common/StringTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/Common/StringTools.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/JsonInputValueSerializer.h
+Common/JsonValue.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/Common/JsonValue.h
+ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/ISerializer.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/JsonOutputStreamSerializer.cpp
+JsonOutputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/JsonOutputStreamSerializer.h
+cassert
+-
+stdexcept
+-
+Common/StringTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/Common/StringTools.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/JsonOutputStreamSerializer.h
+iostream
+-
+../Common/JsonValue.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/JsonValue.h
+ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/ISerializer.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/KVBinaryCommon.h
+cstdint
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/KVBinaryInputStreamSerializer.cpp
+KVBinaryInputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/KVBinaryInputStreamSerializer.h
+algorithm
+-
+cassert
+-
+cstring
+-
+stdexcept
+-
+Common/StreamTools.h
+-
+KVBinaryCommon.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/KVBinaryCommon.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/KVBinaryInputStreamSerializer.h
+Common/IInputStream.h
+-
+ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/ISerializer.h
+JsonInputValueSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/JsonInputValueSerializer.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/KVBinaryOutputStreamSerializer.cpp
+KVBinaryOutputStreamSerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/KVBinaryOutputStreamSerializer.h
+KVBinaryCommon.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/KVBinaryCommon.h
+cassert
+-
+stdexcept
+-
+Common/StreamTools.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/KVBinaryOutputStreamSerializer.h
+vector
+-
+Common/IOutputStream.h
+-
+ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/ISerializer.h
+MemoryStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/MemoryStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/MemoryStream.cpp
+MemoryStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/MemoryStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/MemoryStream.h
+algorithm
+-
+cstdint
+-
+cstring
+-
+vector
+-
+Common/IOutputStream.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/SerializationOverloads.cpp
+Serialization/SerializationOverloads.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/Serialization/SerializationOverloads.h
+limits
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/SerializationOverloads.h
+ISerializer.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Serialization/ISerializer.h
+array
+-
+cstring
+-
+list
+-
+map
+-
+string
+-
+set
+-
+type_traits
+-
+vector
+-
+map
+-
+unordered_map
+-
+unordered_set
+-
+
+Common/IInputStream.h
+cstddef
+-
+
+Common/IOutputStream.h
+cstddef
+-
+
+Common/JsonValue.h
+cstddef
+-
+cstdint
+-
+map
+-
+string
+-
+vector
+-
+
+Common/StreamTools.h
+cstdint
+-
+ostream
+-
+vector
+-
+string
+-
+
+Common/StringTools.h
+cstdint
+-
+sstream
+-
+stdexcept
+-
+vector
+-
+
+Common/StringView.h
+cassert
+-
+string
+-
+
+Common/int-util.h
+assert.h
+-
+stdbool.h
+-
+stdint.h
+-
+string.h
+-
+sys/param.h
+-
+stdlib.h
+-
+
+Common/static_assert.h
+
+CryptoNoteCore/CryptoNoteBasic.h
+boost/utility/value_init.hpp
+-
+CryptoNote.h
+-
+
+CryptoNoteCore/CryptoNoteSerialization.h
+CryptoNoteBasic.h
+CryptoNoteCore/CryptoNoteBasic.h
+crypto/chacha8.h
+CryptoNoteCore/crypto/chacha8.h
+Serialization/ISerializer.h
+CryptoNoteCore/Serialization/ISerializer.h
+crypto/crypto.h
+CryptoNoteCore/crypto/crypto.h
+
+Serialization/ISerializer.h
+string
+-
+cstdint
+-
+Common/StringView.h
+-
+
+Serialization/JsonInputStreamSerializer.h
+iosfwd
+-
+string
+-
+vector
+-
+../Common/JsonValue.h
+Common/JsonValue.h
+JsonInputValueSerializer.h
+Serialization/JsonInputValueSerializer.h
+
+Serialization/JsonInputValueSerializer.h
+Common/JsonValue.h
+Serialization/Common/JsonValue.h
+ISerializer.h
+Serialization/ISerializer.h
+
+Serialization/SerializationOverloads.h
+ISerializer.h
+Serialization/ISerializer.h
+array
+-
+cstring
+-
+list
+-
+map
+-
+string
+-
+set
+-
+type_traits
+-
+vector
+-
+map
+-
+unordered_map
+-
+unordered_set
+-
+
+crypto/chacha8.h
+stdint.h
+-
+stddef.h
+-
+memory.h
+-
+string
+-
+hash.h
+crypto/hash.h
+
+crypto/crypto.h
+cstddef
+-
+limits
+-
+mutex
+-
+type_traits
+-
+vector
+-
+CryptoTypes.h
+-
+generic-ops.h
+crypto/generic-ops.h
+hash.h
+crypto/hash.h
+random.h
+crypto/random.h
+
+crypto/generic-ops.h
+cstddef
+-
+cstring
+-
+functional
+-
+
+crypto/hash-ops.h
+assert.h
+-
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+../Common/static_assert.h
+Common/static_assert.h
+Common/int-util.h
+crypto/Common/int-util.h
+
+crypto/hash.h
+stddef.h
+-
+CryptoTypes.h
+-
+generic-ops.h
+crypto/generic-ops.h
+hash-ops.h
+crypto/hash-ops.h
+
+crypto/random.h
+stddef.h
+-
+

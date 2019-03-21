@@ -1,0 +1,42 @@
+2019-Mar-19 17:10:01.331274 INFO    [simplewallet] laniakey wallet v0.9.9 RELEASE (9e5e4bd)
+2019-Mar-19 17:10:07.856722 ERROR   [simplewallet] Error: failed to load wallet: wallet file 'lnk.wallet' is not found
+2019-Mar-19 17:10:07.856876 ERROR   [simplewallet] Failed to initialize wallet
+2019-Mar-19 17:10:22.879763 INFO    [simplewallet] laniakey wallet v0.9.9 RELEASE (9e5e4bd)
+2019-Mar-19 17:10:32.969326 INFO    [simplewallet] Generated new wallet: 1Rv9VK1W6rWhDabZfKFYrKUFG9Q9p1YG4PLyMP9TcWKf2WJ4rx1GvJFgqLTNK9koMjNGps9ENhnHMihJ8WXDhoqa5gbeN6h
+2019-Mar-19 17:10:32.969326 INFO    [simplewallet] view key: b2cc79026e4905f173f8a4e7b325ba76ebd708b524bf198b89398ec32b123202
+2019-Mar-19 17:10:32.969469 INFO    [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2019-Mar-19 17:47:55.195135 INFO    [simplewallet] laniakey wallet v0.9.9 RELEASE (9e5e4bd)
+2019-Mar-19 17:48:00.691596 INFO    [simplewallet] Loading wallet...
+2019-Mar-19 17:48:00.717517 INFO    [simplewallet] Opened wallet: 1Rv9VK1W6rWhDabZfKFYrKUFG9Q9p1YG4PLyMP9TcWKf2WJ4rx1GvJFgqLTNK9koMjNGps9ENhnHMihJ8WXDhoqa5gbeN6h
+2019-Mar-19 17:48:00.717593 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2019-Mar-19 17:49:09.350146 INFO    [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  export_keys          Show the secret keys of the opened wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2019-Mar-19 17:50:01.136491 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:26081).
+2019-Mar-19 17:55:36.311292 INFO    [simplewallet] laniakey wallet v0.9.9 RELEASE (9e5e4bd)
+2019-Mar-19 17:55:45.167638 INFO    [simplewallet] Loading wallet...
+2019-Mar-19 17:55:45.193197 INFO    [simplewallet] Opened wallet: 1Rv9VK1W6rWhDabZfKFYrKUFG9Q9p1YG4PLyMP9TcWKf2WJ4rx1GvJFgqLTNK9koMjNGps9ENhnHMihJ8WXDhoqa5gbeN6h
+2019-Mar-19 17:55:45.193276 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
