@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpParser.cpp
+HttpParser.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpParser.h
+algorithm
+-
+HttpParserErrorCodes.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpParserErrorCodes.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpParser.h
+iostream
+-
+map
+-
+string
+-
+HttpRequest.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpRequest.h
+HttpResponse.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpResponse.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpParserErrorCodes.cpp
+HttpParserErrorCodes.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpParserErrorCodes.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpParserErrorCodes.h
+string
+-
+system_error
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpRequest.cpp
+HttpRequest.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpRequest.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpRequest.h
+iostream
+-
+map
+-
+string
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpResponse.cpp
+HttpResponse.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpResponse.h
+stdexcept
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/HTTP/HttpResponse.h
+ostream
+-
+string
+-
+map
+-
+

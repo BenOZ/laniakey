@@ -1,0 +1,458 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/CryptoTypes.h
+cstdint
+-
+
+../src/Common/ScopeExit.h
+functional
+-
+
+../src/Common/int-util.h
+assert.h
+-
+stdbool.h
+-
+stdint.h
+-
+string.h
+-
+sys/param.h
+-
+stdlib.h
+-
+
+../src/Common/static_assert.h
+
+../src/CryptoNoteConfig.h
+cstddef
+-
+cstdint
+-
+limits
+-
+
+../src/Platform/Posix/System/MemoryMappedFile.h
+cstdint
+-
+string
+-
+system_error
+-
+
+../src/crypto/generic-ops.h
+cstddef
+-
+cstring
+-
+functional
+-
+
+../src/crypto/hash-ops.h
+assert.h
+-
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+../Common/static_assert.h
+../src/Common/static_assert.h
+Common/int-util.h
+../src/crypto/Common/int-util.h
+
+../src/crypto/hash.h
+stddef.h
+-
+CryptoTypes.h
+-
+generic-ops.h
+../src/crypto/generic-ops.h
+hash-ops.h
+../src/crypto/hash-ops.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Base58.cpp
+Base58.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Base58.h
+assert.h
+-
+string
+-
+vector
+-
+crypto/hash.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/crypto/hash.h
+int-util.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/int-util.h
+Varint.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Varint.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Base58.h
+cstdint
+-
+string
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/BlockingQueue.cpp
+BlockingQueue.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/BlockingQueue.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/BlockingQueue.h
+atomic
+-
+condition_variable
+-
+deque
+-
+mutex
+-
+thread
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/CommandLine.cpp
+CommandLine.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/CommandLine.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/CommandLine.h
+iostream
+-
+type_traits
+-
+boost/program_options/parsers.hpp
+-
+boost/program_options/options_description.hpp
+-
+boost/program_options/variables_map.hpp
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ConsoleHandler.cpp
+ConsoleHandler.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ConsoleHandler.h
+iostream
+-
+iomanip
+-
+sstream
+-
+Windows.h
+-
+unistd.h
+-
+stdio.h
+-
+boost/algorithm/string.hpp
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ConsoleHandler.h
+atomic
+-
+functional
+-
+map
+-
+string
+-
+thread
+-
+vector
+-
+BlockingQueue.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/BlockingQueue.h
+ConsoleTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ConsoleTools.h
+sys/select.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ConsoleTools.cpp
+ConsoleTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ConsoleTools.h
+stdio.h
+-
+Windows.h
+-
+io.h
+-
+iostream
+-
+unistd.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ConsoleTools.h
+cstdint
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/FileMappedVector.cpp
+FileMappedVector.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/FileMappedVector.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/FileMappedVector.h
+cassert
+-
+cstdint
+-
+string
+-
+boost/filesystem.hpp
+-
+System/MemoryMappedFile.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/System/MemoryMappedFile.h
+Common/ScopeExit.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Common/ScopeExit.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IInputStream.cpp
+IInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IInputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IInputStream.h
+cstddef
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IOutputStream.cpp
+IOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IOutputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IOutputStream.h
+cstddef
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/JsonValue.cpp
+JsonValue.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/JsonValue.h
+iomanip
+-
+sstream
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/JsonValue.h
+cstddef
+-
+cstdint
+-
+map
+-
+string
+-
+vector
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Math.cpp
+Math.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Math.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Math.h
+algorithm
+-
+vector
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/MemoryInputStream.cpp
+MemoryInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/MemoryInputStream.h
+algorithm
+-
+cassert
+-
+cstring
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/MemoryInputStream.h
+IInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IInputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/PathTools.cpp
+PathTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/PathTools.h
+algorithm
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/PathTools.h
+string
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ScopeExit.cpp
+ScopeExit.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ScopeExit.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/ScopeExit.h
+functional
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/SignalHandler.cpp
+SignalHandler.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/SignalHandler.h
+mutex
+-
+iostream
+-
+Windows.h
+-
+signal.h
+-
+cstring
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/SignalHandler.h
+functional
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StdInputStream.cpp
+StdInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StdInputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StdInputStream.h
+istream
+-
+IInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IInputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StdOutputStream.cpp
+StdOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StdOutputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StdOutputStream.h
+ostream
+-
+IOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IOutputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StreamTools.cpp
+StreamTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StreamTools.h
+stdexcept
+-
+IInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IInputStream.h
+IOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IOutputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StreamTools.h
+cstdint
+-
+ostream
+-
+vector
+-
+string
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringInputStream.cpp
+StringInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringInputStream.h
+string.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringInputStream.h
+string
+-
+IInputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IInputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringOutputStream.cpp
+StringOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringOutputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringOutputStream.h
+string
+-
+IOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IOutputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringTools.cpp
+StringTools.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringTools.h
+fstream
+-
+iomanip
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringTools.h
+cstdint
+-
+sstream
+-
+stdexcept
+-
+vector
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringView.cpp
+StringView.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringView.h
+limits
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/StringView.h
+cassert
+-
+string
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Util.cpp
+Util.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Util.h
+cstdio
+-
+boost/filesystem.hpp
+-
+CryptoNoteConfig.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/CryptoNoteConfig.h
+windows.h
+-
+shlobj.h
+-
+strsafe.h
+-
+sys/utsname.h
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Util.h
+string
+-
+system_error
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/Varint.h
+limits
+-
+sstream
+-
+string
+-
+type_traits
+-
+utility
+-
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/VectorOutputStream.cpp
+VectorOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/VectorOutputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/VectorOutputStream.h
+cstdint
+-
+vector
+-
+IOutputStream.h
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/IOutputStream.h
+
+/home/maksymdodon/Downloads/Telegram Desktop/laniakey (beta)/src/Common/int-util.h
+assert.h
+-
+stdbool.h
+-
+stdint.h
+-
+string.h
+-
+sys/param.h
+-
+stdlib.h
+-
+
